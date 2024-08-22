@@ -23,6 +23,8 @@ ll inverseModular(ll a, ll mod) {
 
 int main() {
     int a = 2;
-    cout << "Modular multiplicative inverse of " << a << " under modulo " << MOD << " is " << inverseModular(a, MOD) << endl;
+    // cout << "Modular multiplicative inverse of " << a << " under modulo " << MOD << " is " << inverseModular(a, MOD) << endl;
+    string s ; s = a + '0'; cout<<s<<endl;
     return 0;
+
 }
